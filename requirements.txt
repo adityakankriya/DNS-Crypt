@@ -1,0 +1,9 @@
+opencv-python
+Flask
+numpy
+tensorflow 
+flask-mysqldb
+mysqlclient
+mysql
+mysql-connector-python
+PyAudio
