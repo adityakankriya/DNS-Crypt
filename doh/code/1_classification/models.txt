@@ -1,0 +1,5 @@
+model1:Random Forest
+model2:Decision Tree
+model3:NN
+model4:CNN
+model5:Gaussian Naive Bayes

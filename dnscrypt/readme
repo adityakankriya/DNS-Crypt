@@ -1,0 +1,31 @@
+This Project is done by Team HoneyHex
+The members are 
+1) Maj Navneet Sharma - 22111087
+2) Maj Ashish Ahluwalia - 21111073
+3) Aditya Kankriya - 22111072
+4) Mitrajsinh Chavda - 22111077
+5) Vamsee Krishna  - 22111065
+6) Rumit Gore - 22111409
+
+THIS PART OF PROJECT CAPTURE THE DNS PAKETS IN NON-ENCRYPTED FORMAT
+
+open the wireshark-configure the wireshark to only read the loopback data so that it can read the packets in the localhost  
+
+open two terminals - in first terminal run the simpledns.py file by foloowing command - sudo python3 simpledns.py,(your server is now listening and active)
+in the second terminal run the dig command dig -p 443 honeyhex.org  @127.0.0.1 you will get the msg from the server 
+now observed the captured packet in wireshark- the dns honeyhex.org is completely readeable and non encrypted.
+
+
+for assistance you can also see the video - simpledns.webmin
+
+THIS PART OF PROJECT CAPTURE THE DNS PAKETS IN ENCRYPTED FORMAT
+
+open the wireshark-configure the wireshark to only read the loopback data so that it can read the packets in the localhost
+
+open two terminals -  in first terminal run the dnsserver.py file by following command - sudo python3 dnsserver.py,
+in the second terminal run the following command - cd Dns-Lookup-In-Python
+sudo python3 dnsclient.py honeyhex.org... you will obsere the msg from the server it means communication established
+now open the wirehsark to see the captured packets- the packets are encrypted and cannot be read
+
+
+for assistance you can also see the video - encrypteddns.webmin
