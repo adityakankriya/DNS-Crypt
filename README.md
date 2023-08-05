@@ -17,7 +17,7 @@ In our project, we have implemented two methods for dns security:
 			
 more details regarding both implementation are in their respective folders.
 
-In our GitHub project, we utilized some datasets that were larger than GitHub's file size limit of 100.00 MB. To overcome this limitation, we have uploaded these files in a separate folder called "DNS-crypt datasets," and you can access them from [here]([url](https://drive.google.com/drive/folders/1IPD7SWDVwOQBCwx8bsTkeMmP-O8Z2sM7?usp=drive_link)).
+In our GitHub project, we utilized some datasets that were larger than GitHub's file size limit of 100.00 MB. To overcome this limitation, we have uploaded these files in a separate folder called "DNS-crypt datasets," and you can access them from [here](https://drive.google.com/drive/folders/1IPD7SWDVwOQBCwx8bsTkeMmP-O8Z2sM7?usp=drive_link).
 
 To incorporate these datasets into your local project, kindly follow these simple steps:
 
